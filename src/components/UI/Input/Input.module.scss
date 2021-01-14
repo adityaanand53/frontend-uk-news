@@ -1,0 +1,16 @@
+.Input {
+  text-align: center;
+  width: 20vw;
+  height: 30px;
+  border-radius: 3px;
+  &:focus {
+    border: 2px solid #ffce71;
+    outline: none;
+  }
+}
+
+.Label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
