@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header></Header>
-        <section>
+        <section className="MainSection">
           <News></News>
         </section>
       </div>
